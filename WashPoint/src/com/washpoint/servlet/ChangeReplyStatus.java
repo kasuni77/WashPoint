@@ -18,9 +18,10 @@ import com.washpoint.service.EmployeeServiceImple;
 
 /**
  * Servlet implementation class ChangeReplyStatus
+ * @param <HttpServletRequest>
  */
 @WebServlet("/ChangeReplyStatus")
-public class ChangeReplyStatus extends HttpServlet {
+public class ChangeReplyStatus<HttpServletRequest> extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
